@@ -11,6 +11,14 @@
 		8A6CE20626685DF6006A2348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE20526685DF6006A2348 /* ContentView.swift */; };
 		8A6CE20826685DF7006A2348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20726685DF7006A2348 /* Assets.xcassets */; };
 		8A6CE20B26685DF7006A2348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */; };
+		8A6CE22726685E1D006A2348 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21326685E1D006A2348 /* Contact.swift */; };
+		8A6CE22B26685E1D006A2348 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21826685E1D006A2348 /* HomeView.swift */; };
+		8A6CE22C26685E1D006A2348 /* ContactCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21926685E1D006A2348 /* ContactCardView.swift */; };
+		8A6CE22D26685E1D006A2348 /* MessageToContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21A26685E1D006A2348 /* MessageToContacts.swift */; };
+		8A6CE22E26685E1D006A2348 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21B26685E1D006A2348 /* SplashView.swift */; };
+		8A6CE23126685E1D006A2348 /* TrimWhiteSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */; };
+		8A6CE23526685E1D006A2348 /* ContactsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE22426685E1D006A2348 /* ContactsRepository.swift */; };
+		8A6CE23626685E1D006A2348 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		8A6CE20726685DF7006A2348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A6CE20C26685DF7006A2348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6CE21326685E1D006A2348 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8A6CE21826685E1D006A2348 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8A6CE21926685E1D006A2348 /* ContactCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCardView.swift; sourceTree = "<group>"; };
+		8A6CE21A26685E1D006A2348 /* MessageToContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageToContacts.swift; sourceTree = "<group>"; };
+		8A6CE21B26685E1D006A2348 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimWhiteSpace.swift; sourceTree = "<group>"; };
+		8A6CE22426685E1D006A2348 /* ContactsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsRepository.swift; sourceTree = "<group>"; };
+		8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,11 @@
 		8A6CE20226685DF6006A2348 /* IMOVED */ = {
 			isa = PBXGroup;
 			children = (
+				8A6CE21226685E1D006A2348 /* Model */,
+				8A6CE22326685E1D006A2348 /* Repositories */,
+				8A6CE21E26685E1D006A2348 /* Utils */,
+				8A6CE21726685E1D006A2348 /* View */,
+				8A6CE22526685E1D006A2348 /* ViewModel */,
 				8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */,
 				8A6CE20526685DF6006A2348 /* ContentView.swift */,
 				8A6CE20726685DF7006A2348 /* Assets.xcassets */,
@@ -67,6 +88,54 @@
 				8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A6CE21226685E1D006A2348 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE21326685E1D006A2348 /* Contact.swift */,
+			);
+			name = Model;
+			path = "../../swift files/Model";
+			sourceTree = "<group>";
+		};
+		8A6CE21726685E1D006A2348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE21826685E1D006A2348 /* HomeView.swift */,
+				8A6CE21926685E1D006A2348 /* ContactCardView.swift */,
+				8A6CE21A26685E1D006A2348 /* MessageToContacts.swift */,
+				8A6CE21B26685E1D006A2348 /* SplashView.swift */,
+			);
+			name = View;
+			path = "../../swift files/View";
+			sourceTree = "<group>";
+		};
+		8A6CE21E26685E1D006A2348 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */,
+			);
+			name = Utils;
+			path = "../../swift files/Utils";
+			sourceTree = "<group>";
+		};
+		8A6CE22326685E1D006A2348 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE22426685E1D006A2348 /* ContactsRepository.swift */,
+			);
+			name = Repositories;
+			path = "../../swift files/Repositories";
+			sourceTree = "<group>";
+		};
+		8A6CE22526685E1D006A2348 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */,
+			);
+			name = ViewModel;
+			path = "../../swift files/ViewModel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6CE22726685E1D006A2348 /* Contact.swift in Sources */,
+				8A6CE22C26685E1D006A2348 /* ContactCardView.swift in Sources */,
+				8A6CE22B26685E1D006A2348 /* HomeView.swift in Sources */,
 				8A6CE20626685DF6006A2348 /* ContentView.swift in Sources */,
+				8A6CE23626685E1D006A2348 /* ContactsViewModel.swift in Sources */,
+				8A6CE22D26685E1D006A2348 /* MessageToContacts.swift in Sources */,
+				8A6CE22E26685E1D006A2348 /* SplashView.swift in Sources */,
 				8A6CE20426685DF6006A2348 /* IMOVEDApp.swift in Sources */,
+				8A6CE23526685E1D006A2348 /* ContactsRepository.swift in Sources */,
+				8A6CE23126685E1D006A2348 /* TrimWhiteSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
