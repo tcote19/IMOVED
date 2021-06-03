@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A6CE20426685DF6006A2348 /* IMOVEDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */; };
-		8A6CE20626685DF6006A2348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE20526685DF6006A2348 /* ContentView.swift */; };
 		8A6CE20826685DF7006A2348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20726685DF7006A2348 /* Assets.xcassets */; };
 		8A6CE20B26685DF7006A2348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */; };
 		8A6CE22726685E1D006A2348 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21326685E1D006A2348 /* Contact.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		8A6CE20026685DF6006A2348 /* IMOVED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMOVED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMOVEDApp.swift; sourceTree = "<group>"; };
-		8A6CE20526685DF6006A2348 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A6CE20726685DF7006A2348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A6CE20C26685DF7006A2348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				8A6CE21726685E1D006A2348 /* View */,
 				8A6CE22526685E1D006A2348 /* ViewModel */,
 				8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */,
-				8A6CE20526685DF6006A2348 /* ContentView.swift */,
 				8A6CE20726685DF7006A2348 /* Assets.xcassets */,
 				8A6CE20C26685DF7006A2348 /* Info.plist */,
 				8A6CE20926685DF7006A2348 /* Preview Content */,
@@ -102,10 +99,10 @@
 		8A6CE21726685E1D006A2348 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8A6CE21B26685E1D006A2348 /* SplashView.swift */,
 				8A6CE21826685E1D006A2348 /* HomeView.swift */,
 				8A6CE21926685E1D006A2348 /* ContactCardView.swift */,
 				8A6CE21A26685E1D006A2348 /* MessageToContacts.swift */,
-				8A6CE21B26685E1D006A2348 /* SplashView.swift */,
 			);
 			name = View;
 			path = "../../swift files/View";
@@ -210,7 +207,6 @@
 				8A6CE22726685E1D006A2348 /* Contact.swift in Sources */,
 				8A6CE22C26685E1D006A2348 /* ContactCardView.swift in Sources */,
 				8A6CE22B26685E1D006A2348 /* HomeView.swift in Sources */,
-				8A6CE20626685DF6006A2348 /* ContentView.swift in Sources */,
 				8A6CE23626685E1D006A2348 /* ContactsViewModel.swift in Sources */,
 				8A6CE22D26685E1D006A2348 /* MessageToContacts.swift in Sources */,
 				8A6CE22E26685E1D006A2348 /* SplashView.swift in Sources */,
