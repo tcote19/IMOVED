@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2C35E92671370B0008AEF6 /* SendMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C35E82671370B0008AEF6 /* SendMessages.swift */; };
+		8A2F9FFE26850511004C88D0 /* MoveGroove.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F9FFD26850511004C88D0 /* MoveGroove.gif */; };
+		8A2FA00026850517004C88D0 /* NeedATV.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A2F9FFF26850517004C88D0 /* NeedATV.gif */; };
+		8A2FA0022685051C004C88D0 /* PlayedWithDollys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FA0012685051C004C88D0 /* PlayedWithDollys.gif */; };
+		8A2FA00426850521004C88D0 /* TrucksAreForWhimps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FA00326850521004C88D0 /* TrucksAreForWhimps.gif */; };
+		8A2FFAA62685012600F29978 /* MessageToContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FFAA52685012600F29978 /* MessageToContactsViewModel.swift */; };
 		8A6CE20426685DF6006A2348 /* IMOVEDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */; };
 		8A6CE20826685DF7006A2348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20726685DF7006A2348 /* Assets.xcassets */; };
 		8A6CE20B26685DF7006A2348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CE20A26685DF7006A2348 /* Preview Assets.xcassets */; };
@@ -18,9 +24,19 @@
 		8A6CE23126685E1D006A2348 /* TrimWhiteSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */; };
 		8A6CE23526685E1D006A2348 /* ContactsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE22426685E1D006A2348 /* ContactsRepository.swift */; };
 		8A6CE23626685E1D006A2348 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */; };
+		8AB45A85267BFDA700A8BBC4 /* GifPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB45A84267BFDA700A8BBC4 /* GifPicker.swift */; };
+		8AFAA3A726728CEE0065275F /* HeadsUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAA3A626728CEE0065275F /* HeadsUp.gif */; };
+		A7D4FF661E3C0335B2E387F6 /* Pods_IMOVED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D61E281CB11F8B918AD27C /* Pods_IMOVED.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65E87A71399B2F3DB07857C6 /* Pods-IMOVED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMOVED.release.xcconfig"; path = "Target Support Files/Pods-IMOVED/Pods-IMOVED.release.xcconfig"; sourceTree = "<group>"; };
+		8A2C35E82671370B0008AEF6 /* SendMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessages.swift; sourceTree = "<group>"; };
+		8A2F9FFD26850511004C88D0 /* MoveGroove.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = MoveGroove.gif; path = ../../../IMovedPrePro/MoveGroove.gif; sourceTree = "<group>"; };
+		8A2F9FFF26850517004C88D0 /* NeedATV.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = NeedATV.gif; path = ../../../IMovedPrePro/NeedATV.gif; sourceTree = "<group>"; };
+		8A2FA0012685051C004C88D0 /* PlayedWithDollys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = PlayedWithDollys.gif; path = ../../../IMovedPrePro/PlayedWithDollys.gif; sourceTree = "<group>"; };
+		8A2FA00326850521004C88D0 /* TrucksAreForWhimps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = TrucksAreForWhimps.gif; path = ../../../IMovedPrePro/TrucksAreForWhimps.gif; sourceTree = "<group>"; };
+		8A2FFAA52685012600F29978 /* MessageToContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageToContactsViewModel.swift; sourceTree = "<group>"; };
 		8A6CE20026685DF6006A2348 /* IMOVED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMOVED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6CE20326685DF6006A2348 /* IMOVEDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMOVEDApp.swift; sourceTree = "<group>"; };
 		8A6CE20726685DF7006A2348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +50,10 @@
 		8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimWhiteSpace.swift; sourceTree = "<group>"; };
 		8A6CE22426685E1D006A2348 /* ContactsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsRepository.swift; sourceTree = "<group>"; };
 		8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		8AB45A84267BFDA700A8BBC4 /* GifPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPicker.swift; sourceTree = "<group>"; };
+		8AFAA3A626728CEE0065275F /* HeadsUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = HeadsUp.gif; path = ../../../IMovedPrePro/HeadsUp.gif; sourceTree = "<group>"; };
+		90D61E281CB11F8B918AD27C /* Pods_IMOVED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMOVED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EED9DA70A7701E740EC173 /* Pods-IMOVED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMOVED.debug.xcconfig"; path = "Target Support Files/Pods-IMOVED/Pods-IMOVED.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D4FF661E3C0335B2E387F6 /* Pods_IMOVED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3606AE13512279BD5D2A9A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90D61E281CB11F8B918AD27C /* Pods_IMOVED.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A6CE1F726685DF6006A2348 = {
 			isa = PBXGroup;
 			children = (
 				8A6CE20226685DF6006A2348 /* IMOVED */,
 				8A6CE20126685DF6006A2348 /* Products */,
+				9C92B8B722A62710E0985607 /* Pods */,
+				3606AE13512279BD5D2A9A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +97,7 @@
 		8A6CE20226685DF6006A2348 /* IMOVED */ = {
 			isa = PBXGroup;
 			children = (
+				8AFAA3A526728CD40065275F /* gif */,
 				8A6CE21226685E1D006A2348 /* Model */,
 				8A6CE22326685E1D006A2348 /* Repositories */,
 				8A6CE21E26685E1D006A2348 /* Utils */,
@@ -100,9 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				8A6CE21B26685E1D006A2348 /* SplashView.swift */,
-				8A6CE21826685E1D006A2348 /* HomeView.swift */,
 				8A6CE21926685E1D006A2348 /* ContactCardView.swift */,
+				8A6CE21826685E1D006A2348 /* HomeView.swift */,
 				8A6CE21A26685E1D006A2348 /* MessageToContacts.swift */,
+				8A2C35E82671370B0008AEF6 /* SendMessages.swift */,
 			);
 			name = View;
 			path = "../../swift files/View";
@@ -112,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				8A6CE21F26685E1D006A2348 /* TrimWhiteSpace.swift */,
+				8AB45A84267BFDA700A8BBC4 /* GifPicker.swift */,
 			);
 			name = Utils;
 			path = "../../swift files/Utils";
@@ -130,9 +164,31 @@
 			isa = PBXGroup;
 			children = (
 				8A6CE22626685E1D006A2348 /* ContactsViewModel.swift */,
+				8A2FFAA52685012600F29978 /* MessageToContactsViewModel.swift */,
 			);
 			name = ViewModel;
 			path = "../../swift files/ViewModel";
+			sourceTree = "<group>";
+		};
+		8AFAA3A526728CD40065275F /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				8AFAA3A626728CEE0065275F /* HeadsUp.gif */,
+				8A2F9FFD26850511004C88D0 /* MoveGroove.gif */,
+				8A2F9FFF26850517004C88D0 /* NeedATV.gif */,
+				8A2FA0012685051C004C88D0 /* PlayedWithDollys.gif */,
+				8A2FA00326850521004C88D0 /* TrucksAreForWhimps.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		9C92B8B722A62710E0985607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3EED9DA70A7701E740EC173 /* Pods-IMOVED.debug.xcconfig */,
+				65E87A71399B2F3DB07857C6 /* Pods-IMOVED.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A6CE20F26685DF7006A2348 /* Build configuration list for PBXNativeTarget "IMOVED" */;
 			buildPhases = (
+				EA59AD6197806E6278929736 /* [CP] Check Pods Manifest.lock */,
 				8A6CE1FC26685DF6006A2348 /* Sources */,
 				8A6CE1FD26685DF6006A2348 /* Frameworks */,
 				8A6CE1FE26685DF6006A2348 /* Resources */,
+				9E0E07DB511AB4B5A6F33686 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,11 +251,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6CE20B26685DF7006A2348 /* Preview Assets.xcassets in Resources */,
+				8A2FA00426850521004C88D0 /* TrucksAreForWhimps.gif in Resources */,
+				8A2FA00026850517004C88D0 /* NeedATV.gif in Resources */,
+				8AFAA3A726728CEE0065275F /* HeadsUp.gif in Resources */,
 				8A6CE20826685DF7006A2348 /* Assets.xcassets in Resources */,
+				8A2FA0022685051C004C88D0 /* PlayedWithDollys.gif in Resources */,
+				8A2F9FFE26850511004C88D0 /* MoveGroove.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0E07DB511AB4B5A6F33686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMOVED/Pods-IMOVED-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMOVED/Pods-IMOVED-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMOVED/Pods-IMOVED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA59AD6197806E6278929736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMOVED-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A6CE1FC26685DF6006A2348 /* Sources */ = {
@@ -208,11 +313,14 @@
 				8A6CE22C26685E1D006A2348 /* ContactCardView.swift in Sources */,
 				8A6CE22B26685E1D006A2348 /* HomeView.swift in Sources */,
 				8A6CE23626685E1D006A2348 /* ContactsViewModel.swift in Sources */,
+				8A2FFAA62685012600F29978 /* MessageToContactsViewModel.swift in Sources */,
+				8AB45A85267BFDA700A8BBC4 /* GifPicker.swift in Sources */,
 				8A6CE22D26685E1D006A2348 /* MessageToContacts.swift in Sources */,
 				8A6CE22E26685E1D006A2348 /* SplashView.swift in Sources */,
 				8A6CE20426685DF6006A2348 /* IMOVEDApp.swift in Sources */,
 				8A6CE23526685E1D006A2348 /* ContactsRepository.swift in Sources */,
 				8A6CE23126685E1D006A2348 /* TrimWhiteSpace.swift in Sources */,
+				8A2C35E92671370B0008AEF6 /* SendMessages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +445,7 @@
 		};
 		8A6CE21026685DF7006A2348 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EED9DA70A7701E740EC173 /* Pods-IMOVED.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -359,6 +468,7 @@
 		};
 		8A6CE21126685DF7006A2348 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E87A71399B2F3DB07857C6 /* Pods-IMOVED.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
